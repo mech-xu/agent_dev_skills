@@ -148,3 +148,10 @@ Code Changes → Agent Log → Obsidian → AI Context
 ## License
 
 MIT
+
+## Contribute Skills
+
+If you build reusable skills or automation tools, share them in our skill library:
+- Repository: [mech-xu/agent_dev_skills](https://github.com/mech-xu/agent_dev_skills)
+- License: CC BY-NC 4.0 (non-commercial reuse)
+- Process: Fork `agent_dev_skills`, add your skill under `skills/`, and open a PR.
