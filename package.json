@@ -1,32 +1,22 @@
 {
-  "name": "devflow-automation",
+  "name": "sunnynow-dev-tools",
   "version": "1.0.0",
-  "description": "AI-optimized project development automation toolkit - context generation, log merging, and deployment automation for AI coding agents",
+  "description": "Development tools for SunnyNow project - Cloudflare deployment and CI/CD automation",
   "main": "index.js",
   "bin": {
-    "devflow-log-merge": "./tools/log-merge.js",
-    "devflow-deploy": "./tools/auto-deploy.sh"
+    "sunnynow-deploy": "./tools/deploy.sh"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ai",
-    "automation",
-    "devflow",
-    "agent",
-    "context",
-    "obsidian",
-    "log-merge",
+    "cloudflare",
     "deployment",
-    "miniprogram",
-    "cloudflare-worker"
+    "ci-cd",
+    "sunnynow"
   ],
-  "author": "",
+  "author": "mech-xu",
   "license": "MIT",
   "dependencies": {},
-  "peerDependencies": {
-    "repowise": ">=0.1.0",
-    "llm-context": ">=1.0.0"
-  }
+  "peerDependencies": {}
 }
